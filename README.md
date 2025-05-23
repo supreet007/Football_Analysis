@@ -1,4 +1,4 @@
-# Football Video Analysis System
+# Football_Analysis
 
 ## Overview
 This project implements an automated football (soccer) video analysis system that detects, tracks, and analyzes players, referees, and the ball during a match. The system leverages computer vision and machine learning techniques to extract meaningful statistics such as player team assignment, speed, distance covered, ball possession, and camera movement.
@@ -35,16 +35,11 @@ football-video-analysis/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/football-video-analysis.git
-   cd football-video-analysis
+   git clone https://github.com/supreet007/football_analysis.git
+   cd football_analysis
    ```
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. (Optional) Download or prepare the YOLOv5 model and dataset:
+2. Download or prepare the YOLOv5 model and dataset:
    - The project uses a YOLOv5 model trained on a custom Roboflow dataset.
    - Place the trained weights in the appropriate directory.
 
@@ -85,7 +80,7 @@ The script will:
 
 ## Notes
 - Frame rate is assumed to be 24 FPS for speed and distance calculations.
-- The perspective transformer module (not included here) converts camera views to a top-down field view for more accurate distance estimation.
+- The perspective transformer module converts camera views to a top-down field view for more accurate distance estimation.
 - The system uses elliptical bounding shapes to better approximate player positions.
 
 ## Future Improvements
@@ -96,4 +91,4 @@ The script will:
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-# Football_Analysis
+
