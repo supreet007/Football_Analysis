@@ -3,6 +3,8 @@
 ## Overview
 This project implements an automated football (soccer) video analysis system that detects, tracks, and analyzes players, referees, and the ball during a match. The system leverages computer vision and machine learning techniques to extract meaningful statistics such as player team assignment, speed, distance covered, ball possession, and camera movement.
 
+https://github.com/supreet007/Football_Analysis/blob/main/output_screenshots/Screenshot%202025-05-24%20134531.png
+
 ## Features
 - **Player and Object Detection:** Uses YOLOv5 trained on custom datasets to detect players, referees, goalkeepers, and the ball.
 - **Tracking:** Tracks individual entities over time using OpenCV-based tracking and ellipse-based bounding shapes for better visualization.
