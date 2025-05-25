@@ -91,6 +91,10 @@ The script will:
 - Real-time processing optimization.
 - Support for multiple camera angles and dynamic camera calibration.
 
+## Output
+- The Output videos is uploaded in the tags
+- The Best.pt File is also uploaded in the tag
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
